@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 
 const Content = withRouter(props => {
   const {router} = props;
+  console.log(router)
   return (
     <div>
       <h1>{router.query.title}</h1>
